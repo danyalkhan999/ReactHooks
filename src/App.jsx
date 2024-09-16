@@ -1,13 +1,14 @@
-
 import './App.css'
-import UseState from './component/usestate'
+import UseEffect from './component/useeffeect'
+
 
 function App() {
   
 
   return (
     <>
-      <UseState></UseState>
+      {/* <UseState></UseState> */}
+      <UseEffect></UseEffect>
     </>
   )
 }
