@@ -11,9 +11,15 @@ const UseEffectDetailed = () => {
 
   // variation: 1 runs on every render
 
+  //   useEffect(() => {
+  //     alert("I will run on each render");
+  //   });
+
+  // Variation 2: Runs on only first render
+
   useEffect(() => {
-    alert("I will run on each render");
-  });
+    alert("I will run on only first render");
+  }, []);
 
   const handleClick = () => {
     setCount(count + 1);
