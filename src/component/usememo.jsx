@@ -23,6 +23,7 @@ const UseMemo = () => {
         placeholder="Enter a text"
         className="inputClass"
       />{" "}
+      {text}
       <br />
       <input
         type="number"
