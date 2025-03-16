@@ -1,13 +1,15 @@
 import "./App.css";
+import UseEffectDetailed from "./component/useEffectDetailed";
 // import UseEffect from './component/useeffeect'
-import UseMemo from "./component/usememo";
+// import UseMemo from "./component/usememo";
 
 function App() {
   return (
     <>
       {/* <UseState></UseState> */}
       {/* <UseEffect></UseEffect> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseEffectDetailed />
     </>
   );
 }
